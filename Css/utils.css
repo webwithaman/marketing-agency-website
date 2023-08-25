@@ -1,0 +1,62 @@
+/*************************************************************
+     Utility Classes Start
+**************************************************************/
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.padding-x {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.padding-y {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red {
+    color: var(--red);
+}
+
+.common-btn,
+.common-btn-2 {
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    border-radius: 2.5rem;
+    padding: 1.2rem 2.5rem;
+    color: var(--white);
+    text-transform: capitalize;
+    margin: 1.8rem 0;
+}
+
+.common-btn-2 {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+
+@media (hover:hover) {
+
+    .common-btn:hover {
+        background-color: transparent;
+        color: var(--red);
+    }
+
+    .common-btn-2:hover {
+        background-color: transparent;
+        color: var(--blue);
+    }
+}
+
+/*************************************************************
+    Utility Classes End
+**************************************************************/
